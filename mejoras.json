@@ -1,0 +1,247 @@
+{
+  "warm-mej-ala": {
+    "id": "warm-mej-ala",
+    "nombre": "Alas",
+    "pts": 15,
+    "tipo": "criatura",
+    "reglas": "Movimiento tridimensional. Ignora Terreno difícil, abrupto e impasable."
+  },
+  "warm-mej-ali": {
+    "id": "warm-mej-ali",
+    "nombre": "Aliento",
+    "pts": 15,
+    "tipo": "criatura",
+    "reglas": "Plantilla lágrima F4 Pen 3. Una vez cada 2 Turnos. Coste: 3 PD adicionales."
+  },
+  "warm-mej-asp": {
+    "id": "warm-mej-asp",
+    "nombre": "Aspecto atroz",
+    "pts": 12,
+    "tipo": "criatura",
+    "reglas": "Mini rival que quiera Asaltar debe superar tirada de Coraje primero."
+  },
+  "warm-mej-bru": {
+    "id": "warm-mej-bru",
+    "nombre": "Brutal",
+    "pts": 8,
+    "tipo": "criatura",
+    "reglas": "Al Abatir en CaC genera 2 marcadores Pavor en lugar de 1."
+  },
+  "warm-mej-chu": {
+    "id": "warm-mej-chu",
+    "nombre": "Chupasangres",
+    "pts": 5,
+    "tipo": "criatura",
+    "reglas": "Al Abatir a un rival en CaC, la banda obtiene 1 PD adicional ese Turno."
+  },
+  "warm-mej-con": {
+    "id": "warm-mej-con",
+    "nombre": "Constrictora",
+    "pts": 5,
+    "tipo": "criatura",
+    "reglas": "Al Combatir puede gastar 1 PD adicional para imponer 1 complicación al rival."
+  },
+  "warm-mej-fir": {
+    "id": "warm-mej-fir",
+    "nombre": "Firme",
+    "pts": 5,
+    "tipo": "criatura",
+    "reglas": "Terreno difícil = Normal. Terreno abrupto = Difícil."
+  },
+  "warm-mej-mon": {
+    "id": "warm-mej-mon",
+    "nombre": "Montura",
+    "pts": 5,
+    "tipo": "criatura",
+    "reglas": "Puede usar armas y escudo de Veterano/Héroe. Repetible."
+  },
+  "warm-mej-mca": {
+    "id": "warm-mej-mca",
+    "nombre": "Múltiples cabezas",
+    "pts": 5,
+    "tipo": "criatura",
+    "reglas": "Línea de visión 360º."
+  },
+  "warm-mej-tre": {
+    "id": "warm-mej-tre",
+    "nombre": "Trepadora",
+    "pts": 5,
+    "tipo": "criatura",
+    "reglas": "Puede escalar superficies verticales."
+  },
+  "warm-mej-vel": {
+    "id": "warm-mej-vel",
+    "nombre": "Veloz",
+    "pts": 10,
+    "tipo": "criatura",
+    "reglas": "Mueve 15 cm en lugar de 10 cm."
+  },
+  "warm-mej-ven": {
+    "id": "warm-mej-ven",
+    "nombre": "Veneno",
+    "pts": 5,
+    "tipo": "criatura",
+    "reglas": "Con garras/mandíbulas: mini impactada puede quedar Abatida por Veneno (Dureza vs F3)."
+  },
+  "warm-mhj-agi": {
+    "id": "warm-mhj-agi",
+    "nombre": "Ágil",
+    "pts": 10,
+    "tipo": "heroe",
+    "reglas": "+1 Agilidad."
+  },
+  "warm-mhj-cru": {
+    "id": "warm-mhj-cru",
+    "nombre": "Cruel",
+    "pts": 10,
+    "tipo": "heroe",
+    "reglas": "Al Abatir en CaC genera 2 marcadores Pavor en lugar de 1."
+  },
+  "warm-mhj-imp": {
+    "id": "warm-mhj-imp",
+    "nombre": "Impávido",
+    "pts": 10,
+    "tipo": "heroe",
+    "reglas": "No huye aunque Pavor supere el doble de Coraje."
+  },
+  "warm-mhj-ini": {
+    "id": "warm-mhj-ini",
+    "nombre": "Iniciado",
+    "pts": 8,
+    "tipo": "heroe",
+    "reglas": "Puede elegir 1 Hechizo de nivel 1 de las Fuentes de su banda y lanzarlo."
+  },
+  "warm-mhj-ins": {
+    "id": "warm-mhj-ins",
+    "nombre": "Inspirador",
+    "pts": 10,
+    "tipo": "heroe",
+    "reglas": "Al Abatir a un enemigo: aliados en radio 15 cm retiran 1 marcador Pavor."
+  },
+  "warm-mhj-ist": {
+    "id": "warm-mhj-ist",
+    "nombre": "Instinto de supervivencia",
+    "pts": 5,
+    "tipo": "heroe",
+    "reglas": "Si aliado Abatido a 10 cm: 1 ventaja a Dureza hasta que se use."
+  },
+  "warm-mhj-mon": {
+    "id": "warm-mhj-mon",
+    "nombre": "Montado",
+    "pts": 15,
+    "tipo": "heroe",
+    "reglas": "Mueve 15 cm. No puede escalar ni Rapiñar cadáveres."
+  },
+  "warm-mhj-obs": {
+    "id": "warm-mhj-obs",
+    "nombre": "Obstinado",
+    "pts": 5,
+    "tipo": "heroe",
+    "reglas": "No sufre complicaciones por Pavor ≥ Coraje (pero sí huye al doble)."
+  },
+  "warm-mhj-pic": {
+    "id": "warm-mhj-pic",
+    "nombre": "Piel curtida",
+    "pts": 18,
+    "tipo": "heroe",
+    "reglas": "+2 Blindaje. No acumula con Piel pétrea."
+  },
+  "warm-mhj-pre": {
+    "id": "warm-mhj-pre",
+    "nombre": "Presencia imponente",
+    "pts": 15,
+    "tipo": "heroe",
+    "reglas": "Enemigos en radio 10 cm: 1 complicación a Disparo y Combate."
+  },
+  "warm-mhj-res": {
+    "id": "warm-mhj-res",
+    "nombre": "Resistente",
+    "pts": 10,
+    "tipo": "heroe",
+    "reglas": "+1 Dureza."
+  },
+  "warm-mhj-sal": {
+    "id": "warm-mhj-sal",
+    "nombre": "Salvaje",
+    "pts": 10,
+    "tipo": "heroe",
+    "reglas": "Si es Abatido, puede completar su Fase de activación."
+  },
+  "warm-mhj-tes": {
+    "id": "warm-mhj-tes",
+    "nombre": "Testarudo",
+    "pts": 5,
+    "tipo": "heroe",
+    "reglas": "Si saca 1 en tirada enfrentada de Combate, puede repetir el dado."
+  },
+  "warm-mhj-vac": {
+    "id": "warm-mhj-vac",
+    "nombre": "Vacío arcano",
+    "pts": 10,
+    "tipo": "heroe",
+    "reglas": "Inmune a todos los Hechizos (aliados y enemigos)."
+  },
+  "warm-mhj-vio": {
+    "id": "warm-mhj-vio",
+    "nombre": "Violento",
+    "pts": 10,
+    "tipo": "heroe",
+    "reglas": "+1 Fuerza."
+  },
+  "warm-fam-ent": {
+    "id": "warm-fam-ent",
+    "nombre": "Familiar: Entropía",
+    "pts": 10,
+    "tipo": "familiar",
+    "reglas": "1 vez/partida al inicio de Turno: el Hechicero actúa el primero de todos."
+  },
+  "warm-fam-hie": {
+    "id": "warm-fam-hie",
+    "nombre": "Familiar: Hierro",
+    "pts": 8,
+    "tipo": "familiar",
+    "reglas": "1 vez/partida: repite 1 tirada de Dureza."
+  },
+  "warm-fam-ino": {
+    "id": "warm-fam-ino",
+    "nombre": "Familiar: Inocencia",
+    "pts": 5,
+    "tipo": "familiar",
+    "reglas": "1 vez/partida: el Hechicero puede Separarse de combate sin tirada."
+  },
+  "warm-fam-mag": {
+    "id": "warm-fam-mag",
+    "nombre": "Familiar: Magia",
+    "pts": 15,
+    "tipo": "familiar",
+    "reglas": "1 vez/partida: lanza 1 Hechizo sin pagar PD. LANZA UN HECHIZO: genera Pavor y tira en Peligros."
+  },
+  "warm-fam-mie": {
+    "id": "warm-fam-mie",
+    "nombre": "Familiar: Miedo",
+    "pts": 12,
+    "tipo": "familiar",
+    "reglas": "1 vez/partida: todas las minis en radio 20 cm ganan 1 marcador Pavor."
+  },
+  "warm-fam-san": {
+    "id": "warm-fam-san",
+    "nombre": "Familiar: Sangre",
+    "pts": 8,
+    "tipo": "familiar",
+    "reglas": "1 vez/partida: materializa un arma en CaC que desaparece tras el combate. NO es un Hechizo."
+  },
+  "warm-fam-ven": {
+    "id": "warm-fam-ven",
+    "nombre": "Familiar: Venganza",
+    "pts": 10,
+    "tipo": "familiar",
+    "reglas": "Al ser Abatido por primera vez: el familiar lanza uno de sus Hechizos. LANZA UN HECHIZO: genera Pavor y tira en Peligros."
+  },
+  "warm-fam-vis": {
+    "id": "warm-fam-vis",
+    "nombre": "Familiar: Visión",
+    "pts": 5,
+    "tipo": "familiar",
+    "reglas": "1 vez/partida: obliga al Hechicero rival a revelar todos sus Hechizos."
+  }
+}

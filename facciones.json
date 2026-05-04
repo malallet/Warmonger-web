@@ -1,0 +1,5645 @@
+[
+  {
+    "id": "camb",
+    "nombre": "Cambiapieles",
+    "color": "#8b5e3c",
+    "tropas": [
+      {
+        "id": "camb-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": [
+          {
+            "nombre": "Forma Humana",
+            "stats": {
+              "A": 3,
+              "C": 3,
+              "P": 3,
+              "F": 3,
+              "D": 3,
+              "CO": 3
+            },
+            "reglas": "Sin cambios respecto al perfil base."
+          },
+          {
+            "nombre": "Forma Animal",
+            "stats": {
+              "A": 5,
+              "C": 2,
+              "P": 3,
+              "F": 4,
+              "D": 3,
+              "CO": 3
+            },
+            "reglas": "+2 Agilidad, +1 Fuerza, -1 Combate. Ignora Terreno difícil. Solo puede equiparse con Garras. Sin escudo, sin Hechizos, sin interacción con Objetivos."
+          },
+          {
+            "nombre": "Forma Híbrida",
+            "stats": {
+              "A": 4,
+              "C": 4,
+              "P": 3,
+              "F": 3,
+              "D": 4,
+              "CO": 3
+            },
+            "reglas": "+1 Agilidad, +1 Combate, +1 Dureza. Sin armas a distancia ni escudo. Al inicio de cada Turno: tira 1d10 + nº de Turno actual. Con 11+: vuelve a forma Humana con -1 Agilidad, -1 Combate y -1 Dureza permanentes."
+          }
+        ]
+      },
+      {
+        "id": "camb-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": [
+          {
+            "nombre": "Forma Humana",
+            "stats": {
+              "A": 4,
+              "C": 4,
+              "P": 4,
+              "F": 4,
+              "D": 4,
+              "CO": 4
+            },
+            "reglas": "Sin cambios respecto al perfil base."
+          },
+          {
+            "nombre": "Forma Animal",
+            "stats": {
+              "A": 6,
+              "C": 3,
+              "P": 4,
+              "F": 5,
+              "D": 4,
+              "CO": 4
+            },
+            "reglas": "+2 Agilidad, +1 Fuerza, -1 Combate. Ignora Terreno difícil. Solo puede equiparse con Garras. Sin escudo, sin Hechizos, sin interacción con Objetivos."
+          },
+          {
+            "nombre": "Forma Híbrida",
+            "stats": {
+              "A": 5,
+              "C": 5,
+              "P": 4,
+              "F": 4,
+              "D": 5,
+              "CO": 4
+            },
+            "reglas": "+1 Agilidad, +1 Combate, +1 Dureza. Sin armas a distancia ni escudo. Al inicio de cada Turno: tira 1d10 + nº de Turno actual. Con 11+: vuelve a forma Humana con -1 Agilidad, -1 Combate y -1 Dureza permanentes."
+          }
+        ]
+      },
+      {
+        "id": "camb-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "camb-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": [
+          {
+            "nombre": "Forma Humana",
+            "stats": {
+              "A": 6,
+              "C": 5,
+              "P": 5,
+              "F": 4,
+              "D": 4,
+              "CO": 5
+            },
+            "reglas": "Sin cambios respecto al perfil base."
+          },
+          {
+            "nombre": "Forma Animal",
+            "stats": {
+              "A": 8,
+              "C": 4,
+              "P": 5,
+              "F": 5,
+              "D": 4,
+              "CO": 5
+            },
+            "reglas": "+2 Agilidad, +1 Fuerza, -1 Combate. Ignora Terreno difícil. Solo puede equiparse con Garras. Sin escudo, sin Hechizos, sin interacción con Objetivos."
+          },
+          {
+            "nombre": "Forma Híbrida",
+            "stats": {
+              "A": 7,
+              "C": 6,
+              "P": 5,
+              "F": 4,
+              "D": 5,
+              "CO": 5
+            },
+            "reglas": "+1 Agilidad, +1 Combate, +1 Dureza. Sin armas a distancia ni escudo. Al inicio de cada Turno: tira 1d10 + nº de Turno actual. Con 11+: vuelve a forma Humana con -1 Agilidad, -1 Combate y -1 Dureza permanentes."
+          }
+        ]
+      },
+      {
+        "id": "camb-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [
+          {
+            "nombre": "Forma Humana",
+            "stats": {
+              "A": 5,
+              "C": 2,
+              "P": 2,
+              "F": 3,
+              "D": 3,
+              "CO": 5
+            },
+            "reglas": "Sin cambios respecto al perfil base."
+          },
+          {
+            "nombre": "Forma Animal",
+            "stats": {
+              "A": 7,
+              "C": 1,
+              "P": 2,
+              "F": 4,
+              "D": 3,
+              "CO": 5
+            },
+            "reglas": "+2 Agilidad, +1 Fuerza, -1 Combate. Ignora Terreno difícil. Solo puede equiparse con Garras. Sin escudo, sin Hechizos, sin interacción con Objetivos."
+          },
+          {
+            "nombre": "Forma Híbrida",
+            "stats": {
+              "A": 6,
+              "C": 3,
+              "P": 2,
+              "F": 3,
+              "D": 4,
+              "CO": 5
+            },
+            "reglas": "+1 Agilidad, +1 Combate, +1 Dureza. Sin armas a distancia ni escudo. Al inicio de cada Turno: tira 1d10 + nº de Turno actual. Con 11+: vuelve a forma Humana con -1 Agilidad, -1 Combate y -1 Dureza permanentes."
+          }
+        ],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Metamorfosis",
+        "texto": "Cada miniatura (excepto Criaturas) elige UNA forma para toda la partida: HUMANA (sin cambios) | ANIMAL (+2 Agi, +1 Fue, -1 Com; ignora Terreno difícil; solo Garras; sin escudo, sin Hechizos, sin Objetivos) | HÍBRIDA (+1 Agi, +1 Com, +1 Dur; sin armas a distancia ni escudo; al inicio de cada Turno tira 1d10+nºTurno, con 11+: vuelve a Humana con -1 Agi, -1 Com, -1 Dur permanentes)."
+      },
+      {
+        "nombre": "Moverse por cualquier entorno",
+        "texto": "No realizan chequeos por Terreno difícil o abrupto."
+      },
+      {
+        "nombre": "Individualistas e independientes",
+        "texto": "No obtienen ventaja por tener aliados en un Combate múltiple."
+      },
+      {
+        "nombre": "Cazadores solitarios",
+        "texto": "Si Abaten a un enemigo estando solos (sin aliados en radio 10 cm): 1 PD adicional en reserva (no se repone al siguiente Turno)."
+      }
+    ],
+    "fuentes": [
+      "ele",
+      "nat"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "demo",
+    "nombre": "Demonios",
+    "color": "#6b2d2d",
+    "tropas": [
+      {
+        "id": "demo-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "demo-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "demo-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "demo-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "demo-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Sangre venenosa",
+        "texto": "Al ser Abatido un Demonio causa impacto F3 a TODAS las miniaturas en contacto peana con peana."
+      },
+      {
+        "nombre": "Aura de miedo",
+        "texto": "La primera vez que una miniatura enemiga entre en contacto con un Demonio, gana 1 marcador de Pavor."
+      },
+      {
+        "nombre": "Inmunes al Terreno volcánico",
+        "texto": "No sufren efectos adversos del Terreno volcánico."
+      }
+    ],
+    "fuentes": [
+      "mal",
+      "mue",
+      "san"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "devo",
+    "nombre": "Devoradores de Cadáveres",
+    "color": "#5c3d1e",
+    "tropas": [
+      {
+        "id": "devo-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "devo-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "devo-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "devo-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "devo-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Ejecutar",
+        "texto": "Una miniatura en contacto con un enemigo Abatido puede gastar 1 PD: sacrifica a su víctima y devora su corazón. Obtiene 1 ventaja a TODAS sus tiradas de Combate durante el resto de la partida. No puede repetirse sobre la misma miniatura Abatida."
+      },
+      {
+        "nombre": "Han visto muchos horrores",
+        "texto": "Las miniaturas de los Devoradores no sufren el primer marcador de Pavor que obtengan en la partida."
+      }
+    ],
+    "fuentes": [
+      "ele",
+      "san"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "dite",
+    "nombre": "Discípulos de las Tejedoras",
+    "color": "#3d5c3d",
+    "tropas": [
+      {
+        "id": "dite-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "dite-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "dite-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "dite-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "dite-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Más allá de la cordura",
+        "texto": "Ignoran la complicación por acumulación de marcadores de Pavor (pero sí huyen al superar el doble de Coraje)."
+      },
+      {
+        "nombre": "Escaladores arácnidos",
+        "texto": "Pueden Trepar como si fuese Terreno normal, incluyendo las Criaturas."
+      }
+    ],
+    "fuentes": [
+      "loc",
+      "mal",
+      "som"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "dolde",
+    "nombre": "Dolor y Desesperación",
+    "color": "#4a4a6b",
+    "tropas": [
+      {
+        "id": "dolde-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "dolde-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "dolde-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "dolde-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Inmunes al Pavor y al Veneno",
+        "texto": "Las miniaturas son inmunes al Veneno y no ganan marcadores de Pavor."
+      },
+      {
+        "nombre": "Etéreos",
+        "texto": "Ignoran Terreno difícil y abrupto. Pueden atravesar escenografía no impasable siempre que no acaben su Fase sobre ella."
+      },
+      {
+        "nombre": "Corporeidad inestable",
+        "texto": "Si quiere Combatir o Disparar, tira 1d10. Con 1: no puede hacer nada (pierde los PD gastados, cuenta como 1 Acción)."
+      },
+      {
+        "nombre": "Sin Hechiceros",
+        "texto": "La banda de Dolor y Desesperación no puede llevar Hechiceros de ningún tipo."
+      }
+    ],
+    "fuentes": [],
+    "sinAcero": false,
+    "sinHechicero": true,
+    "maxAcero": 3
+  },
+  {
+    "id": "esca",
+    "nombre": "Escamosos",
+    "color": "#3d6b4a",
+    "tropas": [
+      {
+        "id": "esca-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "esca-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "esca-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "esca-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "esca-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Sin acero",
+        "texto": "Las miniaturas de Escamosos no pueden tener armas de acero. Esto ya se aplica en la selección de armas."
+      },
+      {
+        "nombre": "Escamas protectoras",
+        "texto": "Todas las miniaturas tienen Blindaje 1 de base, que se suma al de cualquier armadura y equipo."
+      },
+      {
+        "nombre": "Adaptados al agua y el barro",
+        "texto": "No sufren efectos adversos del Terreno acuático ni del Terreno difícil."
+      }
+    ],
+    "fuentes": [
+      "mal",
+      "nat",
+      "tie"
+    ],
+    "sinAcero": true,
+    "sinHechicero": false,
+    "maxAcero": 0
+  },
+  {
+    "id": "mana",
+    "nombre": "La Manada",
+    "color": "#6b5c3d",
+    "tropas": [
+      {
+        "id": "mana-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "mana-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "mana-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "mana-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "mana-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Moverse por cualquier entorno",
+        "texto": "No realizan chequeos por Terreno difícil o abrupto."
+      },
+      {
+        "nombre": "Individualistas",
+        "texto": "No obtienen ventaja por tener aliados en un Combate múltiple."
+      },
+      {
+        "nombre": "Cazadores solitarios",
+        "texto": "Si Abaten a un enemigo estando solos (sin aliados en radio 10 cm): 1 PD adicional en reserva (no se repone al siguiente Turno)."
+      }
+    ],
+    "fuentes": [
+      "ele",
+      "nat"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "pncu",
+    "nombre": "Peña del Cuervo",
+    "color": "#3d4a6b",
+    "tropas": [
+      {
+        "id": "pncu-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "pncu-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "pncu-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "pncu-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio",
+              "pncu-mej-ala-hv"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "pncu-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Solo los veteranos vuelan",
+        "texto": "Solo Veteranos, Héroes y Criaturas pueden adquirir la mejora Alas. Los Guerreros no pueden."
+      },
+      {
+        "nombre": "Llamada a la batalla",
+        "texto": "1 vez/partida: gastar 1 PD → Grimna emite llamada → todas las miniaturas obtienen +10 cm a uno de sus Movimientos hasta el fin del Turno."
+      }
+    ],
+    "fuentes": [
+      "ele"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "pigm",
+    "nombre": "Pigmeos",
+    "color": "#5c5c3d",
+    "tropas": [
+      {
+        "id": "pigm-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "pigm-arm-cer-3",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "pigm-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "pigm-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "pigm-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "pigm-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Maestros del veneno",
+        "texto": "Todos los Guerreros pueden equiparse con Cerbatanas a mitad de coste (3 pts en lugar de 6)."
+      },
+      {
+        "nombre": "Criaturas salvajes",
+        "texto": "Las Criaturas pueden realizar Asaltos brutales sin pagar el sobrecoste en PD. Nunca pueden adquirir la mejora Montura."
+      }
+    ],
+    "fuentes": [
+      "san",
+      "nat",
+      "mue"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "polhu",
+    "nombre": "Polvo y Huesos",
+    "color": "#6b6b6b",
+    "tropas": [
+      {
+        "id": "polhu-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "polhu-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "polhu-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "polhu-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "polhu-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "3 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Nigromante obligatorio",
+        "texto": "Debe tener al menos 1 Nigromante (Hechicero, no Bruja) que será el Líder. Si es Abatido, otro Hechicero pasa a serlo. Al finalizar cada Turno sin Nigromante, todas las minis tiran Dureza o son Abatidas."
+      },
+      {
+        "nombre": "Inmunes al Pavor y al Veneno",
+        "texto": "Todas las miniaturas excepto los Nigromantes son inmunes al Veneno y no ganan marcadores de Pavor."
+      },
+      {
+        "nombre": "Cuerpos frágiles",
+        "texto": "Sufren 1 complicación a la tirada de Dureza cuando son impactadas por mazas y mazas pesadas."
+      },
+      {
+        "nombre": "Nigromantes reforzados",
+        "texto": "Cada Nigromante aporta 3 PD a la reserva en lugar de 2."
+      }
+    ],
+    "fuentes": [
+      "mal",
+      "mue",
+      "tie"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "repu",
+    "nombre": "Repudiados",
+    "color": "#6b4a3d",
+    "tropas": [
+      {
+        "id": "repu-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "repu-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "repu-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "repu-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "repu-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Sociedad igualitaria",
+        "texto": "Los Veteranos de los Repudiados funcionan como los Guerreros a la hora de interactuar con Objetivos en los escenarios."
+      },
+      {
+        "nombre": "Poder meramente testimonial",
+        "texto": "El Líder de los Repudiados no cuenta con ninguna de las reglas especiales del Líder (aunque sí genera 1 marcador de Pavor a toda su banda si es Abatido)."
+      }
+    ],
+    "fuentes": [
+      "ele",
+      "som"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "sanvi",
+    "nombre": "Sangre y Vísceras",
+    "color": "#6b2d3d",
+    "tropas": [
+      {
+        "id": "sanvi-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "sanvi-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "sanvi-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "sanvi-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "sanvi-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Se alimentan",
+        "texto": "Los Hechiceros y Héroes obtienen 1 PD adicional por cada miniatura enemiga que hayan Abatido (dura hasta gastarse)."
+      },
+      {
+        "nombre": "Apariencia perturbadora",
+        "texto": "Minis enemigas que ataquen a una miniatura de esta banda deben superar tirada de Coraje o tienen 1 complicación al Combate."
+      },
+      {
+        "nombre": "Visión espantosa",
+        "texto": "Cuando una miniatura enemiga sea Abatida, sus aliados ganan 1 marcador Pavor en radio 20 cm en lugar de 15 cm."
+      }
+    ],
+    "fuentes": [
+      "loc",
+      "mue",
+      "san"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "sjve",
+    "nombre": "Sjeverni",
+    "color": "#3d5c6b",
+    "tropas": [
+      {
+        "id": "sjve-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "sjve-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "sjve-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "sjve-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "sjve-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Expertos cazadores",
+        "texto": "Las armas a distancia de los Sjeverni tienen su Alcance largo aumentado en +10 cm. Incluye ataques de Hechizos a distancia (ej: Espinas 15/30/55 cm)."
+      },
+      {
+        "nombre": "Tribu muy unida",
+        "texto": "Las miniaturas de Sjeverni ignoran 1 marcador de Pavor mientras tengan una o más miniaturas aliadas a 10 cm o menos."
+      },
+      {
+        "nombre": "Las llamas son débiles en su tierra",
+        "texto": "Los Hechiceros de los Sjeverni no tienen acceso a ningún Hechizo de Fuego (Abrasar, Sudario de llamas, Proyectil ígneo, Explosión). Esto ya se aplica en la selección de Hechizos."
+      }
+    ],
+    "fuentes": [
+      "ele",
+      "nat"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": 3
+  },
+  {
+    "id": "rnet",
+    "nombre": "Tribu del Rostro Negro",
+    "color": "#6b4a2d",
+    "tropas": [
+      {
+        "id": "rnet-guer",
+        "tipo": "Guerrero",
+        "pts": 15,
+        "stats": {
+          "A": 3,
+          "C": 3,
+          "P": 3,
+          "F": 3,
+          "D": 3,
+          "CO": 3
+        },
+        "pd": "1 PD",
+        "reglas": "Aporta solo 1 PD a la reserva. Única tropa (junto al Líder) que puede interactuar con Objetivos de escenario.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-cer",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "rnet-vete",
+        "tipo": "Veterano",
+        "pts": 25,
+        "stats": {
+          "A": 4,
+          "C": 4,
+          "P": 4,
+          "F": 4,
+          "D": 4,
+          "CO": 4
+        },
+        "pd": "2 PD",
+        "reglas": null,
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-jab",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "rnet-cria",
+        "tipo": "Criatura",
+        "pts": 40,
+        "stats": {
+          "A": 5,
+          "C": 4,
+          "P": 4,
+          "F": 5,
+          "D": 5,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "No puede escalar ni Rapiñar cadáveres. Peana mínima 40 mm. Máximo 2 mejoras (Montura repetible).",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-man"
+            ]
+          },
+          {
+            "grupo": "Armas con Montura",
+            "min": 0,
+            "max": 2,
+            "opciones": [
+              "warm-arm-lan-hie-cria",
+              "warm-arm-maz-hie-cria",
+              "warm-arm-fme-hie-cria",
+              "warm-arm-maz-pie-cria",
+              "warm-arm-lan-pie-cria",
+              "warm-arm-fme-pie-cria",
+              "warm-arm-lan-ace-cria",
+              "warm-arm-maz-ace-cria",
+              "warm-arm-fme-ace-cria"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mej-ala",
+              "warm-mej-ali",
+              "warm-mej-asp",
+              "warm-mej-bru",
+              "warm-mej-chu",
+              "warm-mej-con",
+              "warm-mej-fir",
+              "warm-mej-mon",
+              "warm-mej-mca",
+              "warm-mej-tre",
+              "warm-mej-vel",
+              "warm-mej-ven"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "rnet-hero",
+        "tipo": "Héroe",
+        "pts": 40,
+        "stats": {
+          "A": 6,
+          "C": 5,
+          "P": 5,
+          "F": 4,
+          "D": 4,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "Máximo 2 mejoras, ninguna puede repetirse en toda la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 1,
+            "max": 2,
+            "opciones": [
+              "warm-arm-aro-pie",
+              "warm-arm-aro-hie",
+              "warm-arm-aro-ace",
+              "warm-arm-gar",
+              "warm-arm-lan-pie",
+              "warm-arm-lan-hie",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie",
+              "warm-arm-mpe-pie",
+              "warm-arm-mpe-hie",
+              "warm-arm-fgr-pie",
+              "warm-arm-fgr-hie",
+              "warm-arm-fgr-ace",
+              "warm-arm-fme-pie",
+              "warm-arm-fme-hie",
+              "warm-arm-fme-ace",
+              "warm-arm-arc-pie",
+              "warm-arm-arc-hie",
+              "warm-arm-arc-ace"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue",
+          "warm-bli-cue"
+        ],
+        "equipo": [
+          "warm-equ-esc",
+          "warm-equ-hmi"
+        ],
+        "mejoras": [
+          {
+            "max": 2,
+            "opciones": [
+              "warm-mhj-agi",
+              "warm-mhj-cru",
+              "warm-mhj-imp",
+              "warm-mhj-ini",
+              "warm-mhj-ins",
+              "warm-mhj-ist",
+              "warm-mhj-mon",
+              "warm-mhj-obs",
+              "warm-mhj-pic",
+              "warm-mhj-pre",
+              "warm-mhj-res",
+              "warm-mhj-sal",
+              "warm-mhj-tes",
+              "warm-mhj-vac",
+              "warm-mhj-vio"
+            ]
+          }
+        ],
+        "familiares": [],
+        "hechizos": {},
+        "tieneBruja": false,
+        "formas": []
+      },
+      {
+        "id": "rnet-hech",
+        "tipo": "Hechicero",
+        "pts": 50,
+        "stats": {
+          "A": 5,
+          "C": 2,
+          "P": 2,
+          "F": 3,
+          "D": 3,
+          "CO": 5
+        },
+        "pd": "2 PD",
+        "reglas": "3 Hechizos (1×niv1, 1×niv2, 1×niv3) de las Fuentes de su facción. No gana Pavor por Hechizos. Ningún Hechizo puede repetirse en la banda.",
+        "armas": [
+          {
+            "grupo": "Armas",
+            "min": 0,
+            "max": 1,
+            "opciones": [
+              "warm-arm-gar",
+              "warm-arm-fpe-pie",
+              "warm-arm-fpe-hie",
+              "warm-arm-fpe-ace",
+              "warm-arm-maz-pie",
+              "warm-arm-maz-hie"
+            ]
+          }
+        ],
+        "blindaje": [
+          "warm-bli-rop",
+          "warm-bli-hue"
+        ],
+        "equipo": [
+          "warm-equ-hmi"
+        ],
+        "mejoras": [],
+        "familiares": [
+          "warm-fam-ent",
+          "warm-fam-hie",
+          "warm-fam-ino",
+          "warm-fam-mag",
+          "warm-fam-mie",
+          "warm-fam-san",
+          "warm-fam-ven",
+          "warm-fam-vis"
+        ],
+        "hechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        },
+        "tieneBruja": true,
+        "formas": [],
+        "brujaHechizos": {
+          "1": [
+            "warm-hec-abr",
+            "warm-hec-raf",
+            "warm-hec-sll",
+            "warm-hec-tor",
+            "warm-hec-est",
+            "warm-hec-moj",
+            "warm-hec-int"
+          ],
+          "2": [
+            "warm-hec-asf",
+            "warm-hec-esc",
+            "warm-hec-exf",
+            "warm-hec-pip",
+            "warm-hec-pri",
+            "warm-hec-vue",
+            "warm-hec-bla",
+            "warm-hec-abv",
+            "warm-hec-elg"
+          ],
+          "3": [
+            "warm-hec-exp",
+            "warm-hec-ter",
+            "warm-hec-tsu",
+            "warm-hec-con",
+            "warm-hec-olm",
+            "warm-hec-sac"
+          ]
+        }
+      }
+    ],
+    "reglasBanda": [
+      {
+        "nombre": "Conocen el secreto del acero",
+        "texto": "Las miniaturas de la Tribu del Rostro Negro ignoran la limitación de 3 armas de acero en la banda."
+      },
+      {
+        "nombre": "Frenesí por aniquilación",
+        "texto": "Cada vez que se Abate a un enemigo, la banda obtiene 1 PD adicional en la reserva (no se repone al siguiente Turno)."
+      },
+      {
+        "nombre": "Despiertan mayor temor",
+        "texto": "Cuando una miniatura enemiga sea Abatida, sus aliados ganan 1 marcador Pavor en radio 20 cm en lugar de 15 cm."
+      }
+    ],
+    "fuentes": [
+      "ele",
+      "mue"
+    ],
+    "sinAcero": false,
+    "sinHechicero": false,
+    "maxAcero": null
+  }
+]

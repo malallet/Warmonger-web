@@ -1,0 +1,371 @@
+{
+  "warm-hec-abr": {
+    "id": "warm-hec-abr",
+    "nombre": "Abrasar (Fuego)",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "45 cm",
+    "fuente": "Elementos (Fuego)",
+    "efecto": "Plantilla redonda en LdV. Impactados: 2 complicaciones a su siguiente tirada de Combate o Precisión."
+  },
+  "warm-hec-raf": {
+    "id": "warm-hec-raf",
+    "nombre": "Ráfaga (Aire)",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "20 cm radio",
+    "fuente": "Elementos (Aire)",
+    "efecto": "Aliados en radio 20 cm: su siguiente disparo dobla todos los alcances."
+  },
+  "warm-hec-sll": {
+    "id": "warm-hec-sll",
+    "nombre": "Sudario de llamas (Fuego)",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "10 cm radio",
+    "fuente": "Elementos (Fuego)",
+    "efecto": "Hechicero y aliados en radio 10 cm: quien les impacte en CaC recibe impacto automático F3. Se agota al activarse."
+  },
+  "warm-hec-tor": {
+    "id": "warm-hec-tor",
+    "nombre": "Torbellino (Aire)",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "15 cm radio",
+    "fuente": "Elementos (Aire)",
+    "efecto": "Hechicero y aliados en radio 15 cm: 2 complicaciones a disparos recibidos hasta fin de Turno."
+  },
+  "warm-hec-asf": {
+    "id": "warm-hec-asf",
+    "nombre": "Asfixiar (Aire)",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "40 cm",
+    "fuente": "Elementos (Aire)",
+    "efecto": "Enemigo en LdV: gana 2 marcadores Pavor + 1 complicación a todas sus tiradas en su siguiente Fase."
+  },
+  "warm-hec-esc": {
+    "id": "warm-hec-esc",
+    "nombre": "Escarcha (Agua)",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "45 cm",
+    "fuente": "Elementos (Agua)",
+    "efecto": "Enemigo en LdV: impacto F2 Pen 2."
+  },
+  "warm-hec-exf": {
+    "id": "warm-hec-exf",
+    "nombre": "Extraer fluidos (Agua)",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "30 cm",
+    "fuente": "Elementos (Agua)",
+    "efecto": "Enemigo no trabado en LdV: pierde 2 Dureza permanentemente."
+  },
+  "warm-hec-pip": {
+    "id": "warm-hec-pip",
+    "nombre": "Piel pétrea (Tierra)",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "15 cm",
+    "fuente": "Elementos (Tierra)",
+    "efecto": "Hechicero o aliado en LdV: +2 Blindaje hasta que sea impactado. No acumula con Piel curtida."
+  },
+  "warm-hec-pri": {
+    "id": "warm-hec-pri",
+    "nombre": "Proyectil ígneo (Fuego)",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "30 cm",
+    "fuente": "Elementos (Fuego)",
+    "efecto": "Enemigo no trabado en LdV: impacto F3 Pen 2."
+  },
+  "warm-hec-vue": {
+    "id": "warm-hec-vue",
+    "nombre": "Vuelo (Aire)",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "30 cm",
+    "fuente": "Elementos (Aire)",
+    "efecto": "Hechicero se mueve hasta 30 cm ignorando todo tipo de terreno, incluso tridimensional."
+  },
+  "warm-hec-exp": {
+    "id": "warm-hec-exp",
+    "nombre": "Explosión (Fuego)",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "20 cm radio",
+    "fuente": "Elementos (Fuego)",
+    "efecto": "Radio 20 cm del Hechicero: impacto F5 Pen 2 a TODAS las miniaturas."
+  },
+  "warm-hec-ter": {
+    "id": "warm-hec-ter",
+    "nombre": "Terremoto (Tierra)",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "45 cm largo",
+    "fuente": "Elementos (Tierra)",
+    "efecto": "Crea grieta 2,5×45 cm. Minis que la toquen: tirada Agilidad o F5 Pen 1."
+  },
+  "warm-hec-tsu": {
+    "id": "warm-hec-tsu",
+    "nombre": "Tsunami (Agua)",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "20×10 cm frontal",
+    "fuente": "Elementos (Agua)",
+    "efecto": "Minis en zona retroceden 10 cm. Si chocan con escenografía: impacto según Grado de Protección (Ligero F2P1, Medio F4P2, Pesado F6P3). Si salen de mesa: retiradas."
+  },
+  "warm-hec-ago": {
+    "id": "warm-hec-ago",
+    "nombre": "Agobio",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "30 cm",
+    "fuente": "Locura",
+    "efecto": "Enemigo no trabado: 1 complicación a todas sus tiradas hasta que gaste 2 PD para recuperarse."
+  },
+  "warm-hec-pes": {
+    "id": "warm-hec-pes",
+    "nombre": "Pesadillas",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "45 cm",
+    "fuente": "Locura",
+    "efecto": "Plantilla redonda: impactados ganan 2 marcadores Pavor al instante."
+  },
+  "warm-hec-voi": {
+    "id": "warm-hec-voi",
+    "nombre": "Voces interiores",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "60 cm",
+    "fuente": "Locura",
+    "efecto": "Enemigo no trabado: no actúa en su próxima Fase; su banda pierde los PD que él generaría este Turno."
+  },
+  "warm-hec-est": {
+    "id": "warm-hec-est",
+    "nombre": "Estigma",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "60 cm",
+    "fuente": "Maldición",
+    "efecto": "Plantilla redonda: impactados no pueden usar ninguna ventaja durante este Turno."
+  },
+  "warm-hec-moj": {
+    "id": "warm-hec-moj",
+    "nombre": "Mal de ojo",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "45 cm",
+    "fuente": "Maldición",
+    "efecto": "Plantilla redonda: impactados tienen 1 complicación en su siguiente tirada."
+  },
+  "warm-hec-bla": {
+    "id": "warm-hec-bla",
+    "nombre": "Blasfemia",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "30 cm radio",
+    "fuente": "Maldición",
+    "efecto": "Aliados en radio 30 cm: eliminan 2 marcadores Pavor cada uno al instante."
+  },
+  "warm-hec-con": {
+    "id": "warm-hec-con",
+    "nombre": "Condenación",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "45 cm",
+    "fuente": "Maldición",
+    "efecto": "Plantilla redonda: impactados ganan 3 marcadores Pavor al instante."
+  },
+  "warm-hec-enr": {
+    "id": "warm-hec-enr",
+    "nombre": "Enraizar",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "30 cm",
+    "fuente": "Naturaleza",
+    "efecto": "Plantilla redonda: impactados tiran Fuerza al inicio de su siguiente Fase o no pueden Mover."
+  },
+  "warm-hec-sav": {
+    "id": "warm-hec-sav",
+    "nombre": "Saeta viva",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "20 cm radio",
+    "fuente": "Naturaleza",
+    "efecto": "Aliados en radio 20 cm: su siguiente disparo evita automáticamente cualquier Cobertura."
+  },
+  "warm-hec-esp": {
+    "id": "warm-hec-esp",
+    "nombre": "Espinas",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "15/30/45 cm",
+    "fuente": "Naturaleza",
+    "efecto": "Hechicero obtiene ataque F4 Pen 3 (15/30/45 cm), pero Terreno Normal = Difícil. Cancelable voluntariamente."
+  },
+  "warm-hec-rug": {
+    "id": "warm-hec-rug",
+    "nombre": "Rugido",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "20 cm radio",
+    "fuente": "Naturaleza",
+    "efecto": "Enemigos en LdV en radio 20 cm: 2 marcadores Pavor cada uno."
+  },
+  "warm-hec-fan": {
+    "id": "warm-hec-fan",
+    "nombre": "Forma animal",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "-",
+    "fuente": "Naturaleza",
+    "efecto": "Hechicero se transforma en Criatura con Garras (peana 40 mm) hasta fin de su siguiente Fase."
+  },
+  "warm-hec-eno": {
+    "id": "warm-hec-eno",
+    "nombre": "Energía oscura",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "30 cm",
+    "fuente": "Muerte",
+    "efecto": "Guerrero o Veterano aliado en LdV: realiza inmediatamente 1 Acción de máx. 1 PD de forma gratuita."
+  },
+  "warm-hec-abv": {
+    "id": "warm-hec-abv",
+    "nombre": "Absorción vital",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "-",
+    "fuente": "Muerte",
+    "efecto": "Consume 1 PD de la reserva rival y lo añade a la propia reserva este Turno."
+  },
+  "warm-hec-olm": {
+    "id": "warm-hec-olm",
+    "nombre": "Ola de muerte",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "30 cm radio",
+    "fuente": "Muerte",
+    "efecto": "Radio 30 cm del Hechicero: todas las miniaturas que NO sean Muertos Vivientes ganan 3 marcadores Pavor. Además deben superar una tirada de Dureza o pierden 2 puntos de Dureza permanentemente."
+  },
+  "warm-hec-lat": {
+    "id": "warm-hec-lat",
+    "nombre": "Latido",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "45 cm",
+    "fuente": "Sangre",
+    "efecto": "Plantilla redonda: impactados ganan 1 marcador Pavor + 1 complicación a su primera tirada posterior."
+  },
+  "warm-hec-des": {
+    "id": "warm-hec-des",
+    "nombre": "Desangrar",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "30 cm",
+    "fuente": "Sangre",
+    "efecto": "Plantilla redonda: impactados tiran Fuerza. Fallan: -1 Fuerza permanente. Superan: +2 marcadores Pavor."
+  },
+  "warm-hec-vin": {
+    "id": "warm-hec-vin",
+    "nombre": "Vínculo",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "30 cm",
+    "fuente": "Sangre",
+    "efecto": "2 enemigos en LdV: cuando uno sea Abatido, el otro también lo es."
+  },
+  "warm-hec-tin": {
+    "id": "warm-hec-tin",
+    "nombre": "Tinieblas",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "10 cm radio",
+    "fuente": "Sombras",
+    "efecto": "Hechicero y aliados en radio 10 cm: no pueden ser objetivo de disparos mientras no se muevan."
+  },
+  "warm-hec-alng": {
+    "id": "warm-hec-alng",
+    "nombre": "Alas negras",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "40 cm",
+    "fuente": "Sombras",
+    "efecto": "Enemigo no trabado en LdV: no puede actuar en su siguiente Fase."
+  },
+  "warm-hec-dos": {
+    "id": "warm-hec-dos",
+    "nombre": "Doble sombrío",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "10 cm",
+    "fuente": "Sombras",
+    "efecto": "Crea un doble del Hechicero o aliado: absorbe el próximo impacto en su lugar y desaparece. Máx. 1 doble por miniatura."
+  },
+  "warm-hec-alt": {
+    "id": "warm-hec-alt",
+    "nombre": "Alteración",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "45 cm",
+    "fuente": "Tiempo",
+    "efecto": "Mini aliada/enemiga no trabada: su siguiente d10 se tira 2 veces (peor para enemigo, mejor para aliado)."
+  },
+  "warm-hec-def": {
+    "id": "warm-hec-def",
+    "nombre": "Deformación",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "15 cm radio",
+    "fuente": "Tiempo",
+    "efecto": "Hechicero y aliados en radio 15 cm: todas las tiradas d10 contra ellos se repiten usando el peor resultado hasta fin de Turno."
+  },
+  "warm-hec-pre": {
+    "id": "warm-hec-pre",
+    "nombre": "Precognición",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "30 cm",
+    "fuente": "Tiempo",
+    "efecto": "Aliado: completa su próxima Fase; si no le conviene puede deshacerla, recuperar los PD y repetirla."
+  },
+  "warm-hec-som": {
+    "id": "warm-hec-som",
+    "nombre": "Sometimiento",
+    "nivel": 0,
+    "nivelRaw": "X PD",
+    "alcance": "30 cm",
+    "fuente": "Brujería",
+    "efecto": "Controla a un Hechicero (no Bruja) en LdV: lanza uno de sus Hechizos del mismo nivel que los PD gastados, gratuitamente. La Bruja siempre tiene este hechizo (4.º adicional)."
+  },
+  "warm-hec-int": {
+    "id": "warm-hec-int",
+    "nombre": "Intercambio",
+    "nivel": 1,
+    "nivelRaw": "1",
+    "alcance": "20 cm",
+    "fuente": "Brujería",
+    "efecto": "Intercambia posición con una miniatura aliada o enemiga no trabada en LdV."
+  },
+  "warm-hec-elg": {
+    "id": "warm-hec-elg",
+    "nombre": "Elegido",
+    "nivel": 2,
+    "nivelRaw": "2",
+    "alcance": "15 cm",
+    "fuente": "Brujería",
+    "efecto": "Aliada no trabada en LdV: +2 Fuerza y +2 Dureza hasta que se usen."
+  },
+  "warm-hec-sac": {
+    "id": "warm-hec-sac",
+    "nombre": "Sacrificio",
+    "nivel": 3,
+    "nivelRaw": "3",
+    "alcance": "30 cm",
+    "fuente": "Brujería",
+    "efecto": "Vincula a un aliado: la siguiente herida que sufra la Bruja la sufre el aliado en su lugar."
+  }
+}

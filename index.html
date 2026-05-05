@@ -2,18 +2,27 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#1a0e04" />
     <title>Warmonger — Constructor de Listas</title>
-    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <style>
       * { box-sizing: border-box; margin: 0; padding: 0; }
       body { background: #0e0a04; color: #e0c898; font-family: Georgia, serif; }
       #root { min-height: 100vh; }
+      .loading { display: flex; align-items: center; justify-content: center; min-height: 100vh; color: #e8c060; font-family: Georgia, serif; flex-direction: column; gap: 8px; }
+      .loading .spinner { font-size: 32px; }
+      .loading .text { font-size: 14px; }
+      .loading .sub { font-size: 11px; color: #8a7050; }
     </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading">
+        <div class="spinner">⚔</div>
+        <div class="text">Cargando Warmonger...</div>
+        <div class="sub">Si esto persiste más de 5 segundos, abre la consola del navegador para ver el error</div>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
